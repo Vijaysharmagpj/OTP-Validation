@@ -1,0 +1,73 @@
+/* OtpInput.css */
+*{
+margin: 0;
+padding: 0;
+overflow: hidden;
+box-sizing: border-box;  
+}
+.otp-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  color: #6b6b6b;
+}
+
+.otp-input-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.otp-input {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  border: 2px solid #d3d3d3;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.otp-input:focus {
+  border-color: #e0004d;
+}
+.button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #e0004d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.resend-link {
+  font-size: 16px;
+  color: #e0004d;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: underline;
+  margin-top: 10px;
+}
+
+.resend-link.disabled {
+  color: #a0a0a0;
+  cursor: not-allowed;
+}

@@ -1,0 +1,88 @@
+
+  .phone-login-container {
+      text-align: center;
+      padding: 20px;
+      animation: fadeIn 1s ease-in-out;
+      opacity: 0;
+      animation-fill-mode: forwards;
+    }
+
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+    
+
+    .phone-form-container {
+      animation: slideInFromBottom 0.8s ease-out;
+      opacity: 0;
+      animation-fill-mode: forwards;
+    }
+    
+    @keyframes slideInFromBottom {
+      0% {
+        transform: translateY(30px);
+        opacity: 0;
+      }
+      100% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    .otp-container {
+      animation: fadeIn 1s ease-in-out;
+      opacity: 0;
+      animation-fill-mode: forwards;
+      animation-delay: 0.5s;
+    }
+    
+
+    .phone-input {
+      padding: 10px;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      width: 250px;
+      margin-bottom: 15px;
+      transition: all 0.3s ease;
+    }
+    
+    .phone-input:focus {
+      border-color: #007bff;
+      outline: none;
+    }
+    
+    .phone-submit-button {
+      padding: 10px 20px;
+      font-size: 1rem;
+      background-color: #e0004d;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    
+    .phone-submit-button:hover {
+      background-color: #e0004d;
+    }
+
+    .otp-text {
+      font-size: 1.2rem;
+      color: #333;
+      margin-bottom: 15px;
+      animation: fadeIn 1s ease-in-out;
+      opacity: 0;
+      animation-fill-mode: forwards;
+      animation-delay: 1s;
+    }
+    
+    .otp-input-container {
+      margin-top: 10px;
+    }
+    
